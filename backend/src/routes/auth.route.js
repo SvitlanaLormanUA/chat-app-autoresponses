@@ -1,6 +1,6 @@
 import { sign } from 'crypto';
 import express from 'express';
-import { login, logout, signup } from '../controllers/auth.controller';
+import { login, logout, signup } from '../controllers/auth.controller.js';
 
 const router = express.Router();
 

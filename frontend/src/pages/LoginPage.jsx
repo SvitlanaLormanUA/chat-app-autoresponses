@@ -36,7 +36,7 @@ const LoginPage = () => {
           <form onSubmit={handleSubmit}>
             <div className="form-group">
               <label>Email</label>
-              <div className="input-wrapper">
+              <div className=" input-wrapper">
                 <Mail className="icon" />
                 <input
                   type="email"
@@ -48,7 +48,7 @@ const LoginPage = () => {
             </div>
             <div className="form-group">
               <label>Password</label>
-              <div className="password-input input-wrapper">
+              <div className="input-wrapper">
                 <Lock className="icon" />
                 <input
                   type={showPassword ? 'text' : 'password'}

@@ -66,9 +66,13 @@
   
   /* Form Elements */
   .input-wrapper {
-    position: relative;
+    display: flex;
+  align-items: center;
+  gap: 0.5rem;
   }
-  
+  input {
+    width: 80%;
+  }
   .input-icon {
     position: absolute;
     inset-y: 0;

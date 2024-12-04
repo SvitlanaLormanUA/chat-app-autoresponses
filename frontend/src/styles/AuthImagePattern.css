@@ -1,0 +1,55 @@
+.auth-pattern-container {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb; /* Base 200 */
+    padding: 3rem;
+  }
+  
+  @media (min-width: 1024px) {
+    .auth-pattern-container {
+      display: flex;
+    }
+  }
+  
+  .auth-pattern-content {
+    max-width: 24rem; 
+    text-align: center;
+  }
+  
+  .auth-pattern-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem; 
+    margin-bottom: 2rem; 
+  }
+  
+  .auth-pattern-square {
+    aspect-ratio: 1; /* Makes the div a square */
+    border-radius: 0.5rem; 
+    background-color: #6b7480; 
+  }
+  
+  .auth-pattern-animate {
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+  
+  .auth-pattern-title {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    margin-bottom: 1rem; 
+  }
+  
+  .auth-pattern-subtitle {
+    color: #6b7280; 
+  }
+  

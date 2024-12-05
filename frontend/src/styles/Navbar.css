@@ -65,6 +65,10 @@
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
+    background: none;
+    border: none;
+    margin-left: 2em;
+    cursor: pointer;
   }
   
   .navbar-btn-small {

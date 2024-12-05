@@ -19,10 +19,7 @@ const Navbar = () => {
           </div>
 
           <div className="flex items-center gap-2">
-            <Link to="/settings" className="navbar-btn navbar-btn-small">
-              <Settings className="w-4 h-4" />
-              <span className="hidden-sm">Settings</span>
-            </Link>
+            
 
             {authUser && (
               <>

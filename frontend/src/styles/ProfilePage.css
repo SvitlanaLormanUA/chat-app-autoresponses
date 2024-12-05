@@ -1,0 +1,129 @@
+.profile-container {
+    height: 100vh;
+    padding-top: 5rem;
+    background-color: rgb(237, 237, 237);
+    border-radius: 1em;
+    margin: 4em;
+  }
+  
+  .profile-card {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--base-300);
+    border-radius: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .avatar-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .avatar-wrapper {
+    position: relative;
+  }
+  
+  .avatar {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border-width: 0.25rem;
+  }
+  
+  .upload-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: var(--base-content);
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .upload-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .upload-button.loading {
+    animation: pulse 1s infinite;
+    pointer-events: none;
+  }
+  
+  .icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: var(--base-200);
+  }
+  
+  .upload-text {
+    font-size: 0.875rem;
+    color: var(--zinc-400);
+  }
+  
+  .profile-info {
+    margin-bottom: 1.5rem;
+   
+    
+  }
+  
+  .profile-item {
+    margin-bottom: 0.75rem;
+  }
+  
+  .profile-label {
+    font-size: 0.875rem;
+    color: var(--zinc-400);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .profile-value {
+    padding: 0.625rem 1rem;
+    background-color: var(--base-200);
+    border-radius: 0.5rem;
+    border: 1px solid;
+    background-color: rgb(255, 253, 248);
+  }
+  
+  .account-info {
+    margin-top: 1.5rem;
+    background-color: var(--base-300);
+    padding: 1.5rem;
+    border-radius: 1rem;
+  }
+  
+  .section-title {
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  
+  .account-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--zinc-700);
+  }
+  
+  .account-item:last-child {
+    border-bottom: none;
+  }
+  
+  .active-status {
+    color: #28a745;
+  }
+  .hidden {
+    display: none;
+  }
